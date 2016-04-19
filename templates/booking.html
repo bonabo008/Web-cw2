@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+        <link type="text/css" rel="stylesheet" href="static/style/style.css">
+        <link type="text/css" rel="stylesheet" media="handheld, only screen and (max-device-width: 481px)" href="static/style/phone.css">
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+        <title>Comments</title>
+    </head>
+    <body>
+        <nav>
+            <div id = "buttonRow" class="buttonRow">
+                <div class="oldFarm sideBySide" id="oldFarm">
+                    <h1 class = "title">Old Farm Property For Rent</h1>
+                    <h3>Walberswick, Suffolk</h3>
+                </div>
+                <div class="price sideBySide" id="price">
+                    <h1 class="priceh1">£850</h1>
+                    <p class="pricep">For 7 Days</p>
+                </div>
+                <div id="buttons" class="buttons">
+                    <hr>
+                    <a href="home"><button class="navbutton navsize">Description</button></a>
+                    <a href="attractions"><button class="navbutton navsize">Local Area</button></a>
+                    <a href="displayList"><button class="navbutton navsize">Comments</button></a>
+					<a href="booking"><button class="navbutton navsize">Booking</button></a>
+                </div>
+            </div>
+        </nav>
+        <!-- Booking section -->
+        <div class="content_section comments" id="booking">
+            <h1>Make a Booking</h1>
+			<hr>
+			<form action="addBooking" id="addBooking" method="post" >
+				<label>Name:</label><br />
+				<input name="name" type="text" class="booking" id="name" placeholder="Name"/><br /><br />
+				<label>Email:</label><br />
+				<input name="email" type="text" class="booking" id="email" placeholder="example@example.com"/><br /><br />
+				<label>Arrival Date:</label><br />
+				<input name="startDate" type="text" class="booking" id="dateStart" placeholder="DD/MM/YYYY"/><br /><br />
+				<label>Departure Date:</label><br />
+				<input name="endDate" type="text" class="booking" id="dateEnd" placeholder="DD/MM/YYYY"/><br /><br />
+				<label>Number of people:</label><br />
+				<input name="people" type="text" class="booking" id="people" placeholder=""/><br /><br />
+				<label>Additional Query:</label><br />
+				<textarea name="info" type="text" id="info" class="txt1" rows="10" cols="100" placeholder=""/></textarea>
+				<input class="navbutton navsize" type="submit" value="Submit Form">
+				<input class="navbutton navsize" type="reset" value="Reset Form">
+			</form>
+        </div>
+        <!--Contact section	-->
+        <div id="contact" class="contact">
+            <h1>Contact Details</h1>
+            <hr>
+            <p>If interested in the property, please contact:</p>
+            <h3>Dianna Vu</h3>
+            <p>Mobile: 07909052006</p>
+            <p>Email: Dianna.Vu@uea.ac.uk</p>
+            <h3>Daniel Banks</h3>
+            <p>Email: Daniel.Banks@uea.ac.uk</p>
+        </div>
+        <!--Footer section	-->
+        <footer>
+            <p>Site By - Daniel Banks</p>
+        </footer>
+        <!--Scripts	-->
+        <script src="https://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
+        <script src="static/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+		<script src="static/js/jquery-ui.js" type="text/javascript"></script>
+        <script src="static/js/javascript.js" type="text/javascript"></script>
+        <script src="static/js/map.js" type="text/javascript"></script>
+    </body>
+</html>

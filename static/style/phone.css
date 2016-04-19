@@ -1,0 +1,135 @@
+html, body {
+    width: 100%;
+	margin: 0;
+    padding: 0;
+}
+
+p{
+	font-size: 1em;
+}
+
+li{
+	font-size: 1em;
+}
+
+h1{
+	font-size: 2em;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+h5{
+	font-size: 1em;
+}
+
+label{
+	font-size: 25pt;
+}
+
+input{
+	font-size: 25pt;
+}
+
+textarea{
+	font-size: 15pt;
+}
+
+input[type="text"] {
+    width: 500px;
+	height: 100px;
+}
+
+.gallery{
+	max-width: 95%;
+	min-width: 200px;
+}
+
+.main{
+	max-width: 95%;
+	min-width: 200px;
+}
+
+.map{
+	max-width: 95%;
+	min-width: 200px;
+	height: auto;
+}
+
+.map_canvas{
+	width: 870px;
+	height: 870px;
+	background-color: #CCC;
+}
+
+.local_info{
+	width: 870px;
+	height: auto;
+}
+
+.maph1 {
+	font-size: 3em;
+}
+
+.maph3 {
+	font-size: 2.5em;
+}
+
+.comments{
+	max-width: 95%;
+	min-width: 200px;
+}
+
+.contact{
+	max-width: 95%;
+	min-width: 200px;
+}
+
+.contact p {
+	font-size: 1em;
+}
+
+.imageContent{
+	min-height: 320px;
+	width: 90%;
+}
+
+/* Main Big image Styling */
+.viewMode{
+	min-width: 200px;
+	height: 750px;
+	margin-left: 30px;
+}
+
+.viewMode img{
+	max-height: 90%;
+	max-width: 99%;
+}
+
+/* Small image Styling */
+.imageBox img{
+	width: 200px;
+	height: 200px;
+}
+
+.navbutton{
+	width: 400px;
+	height: 100px;
+	font-size: 20pt;
+	border-radius: 10px;
+}
+
+button{
+	width: 400px;
+	height: 100px;
+	font-size: 20pt;
+}
+
+textarea{
+	font-size: 20pt;
+}
+
+footer p {
+	font-size: 2em;
+}

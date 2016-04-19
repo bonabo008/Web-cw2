@@ -1,0 +1,282 @@
+html {
+    margin: 0;
+    padding: 0;
+	overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+	background-color: #FFF2E7;
+}
+
+h1{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 2em;
+	color: black;
+	margin:0
+}
+
+h2{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.5em;
+}
+
+label, h3{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.17em;
+}
+
+h4{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+}
+
+h5{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+}
+
+p{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+}
+
+li{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+}
+
+.buttonRow {
+	border: 2px solid #4B4D52;
+	background-color:#D0CABF;
+	max-width: 1060px;
+	min-width: 800px;
+	height: auto;
+	margin: 20px auto;
+}
+
+.buttons {
+	text-align: center;
+	margin: auto;
+}
+
+hr {
+   	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -webkit-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+.oldFarm{
+	text-align: left;
+	
+}
+
+.navbutton{
+	display: inline-block;
+    vertical-align: middle;
+	border: 2px solid #4B4D52;
+	margin-top:1em;
+	margin-bottom:1em;
+	margin-left:1em;
+	font-size: 14pt;
+	border-radius: 5px;
+}
+
+.navsize{
+	width:10em;
+	height: 2.5em;
+}
+
+.navbutton:hover {
+	background-color:#918d85;
+}
+
+
+.gallery{
+	border: 2px solid #4B4D52;
+	background-color:#D0CABF;
+	max-width: 1000px;
+	min-width: 800px;
+	height: auto;
+	margin: 20px auto;
+	padding: 30px;
+}
+
+.price{
+	float: right;
+	text-align: right;
+}
+
+.pricep {
+	margin:0;
+}
+
+.priceh1 {
+	color: firebrick;
+}
+
+.main{
+	border: 2px solid #4B4D52;
+	background-color:#D0CABF;
+	max-width: 1000px;
+	min-width: 800px;
+	height: auto;
+	margin: 20px auto;
+	padding: 30px;
+}
+
+.map{
+	border: 2px solid #4B4D52;
+	background-color:#D0CABF;
+	max-width: 1000px;
+	min-width: 800px;
+	height: auto;
+	margin: 20px auto;
+	padding: 30px;
+}
+
+.map_canvas{
+	width: 400px;
+	height: 400px;
+	background-color: #CCC;
+}
+
+.sideBySide {
+   display: inline-block;
+   margin: 1em;
+   vertical-align: top;
+}
+
+@media only screen 
+and (max-width : 1031px) {
+	.map_canvas{
+	  width: 600px;
+	  height: 600px;	  
+}
+}
+
+.local_info{
+	width: 500px;
+	height: auto;
+}
+
+.cmtlist{
+	max-width: 1000px;
+	min-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	word-wrap: break-word;
+}
+
+.comments{
+	border: 2px solid #4B4D52;
+	background-color:#D0CABF;
+	max-width: 1000px;
+	min-width: 800px;
+	height: auto;
+	margin: 20px auto;
+	padding: 30px;
+}
+
+.imageContent{
+	min-height: 600px;
+	margin-right: auto;
+	margin-left :auto;
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center; 
+}
+
+.imageWidth{
+	width: 700px;
+}
+
+.center{
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* Main Big image Styling */
+.viewMode{ 
+	margin: 5px 10px auto -15px;
+	padding: 5px 5px;
+	text-align: center;
+}
+
+.viewModeSize{
+	width: 750px;
+	height: 520px;
+}
+
+.viewMode img{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 700px;
+	max-width: 700px;
+	border: 2px solid #4B4D52;
+}
+
+/* Small image Styling */
+.imageBox{
+	width: 720px;
+}
+
+.imageBox img{
+	margin-left: 10px;
+	margin-right: auto;
+	margin-top: 10px;
+	border: 2px solid #4B4D52;
+
+	cursor: pointer;
+	visibility: visible;
+}
+
+.imageSize img{
+	width: 120px;
+	height: 120px;
+}
+
+.txt1{
+    text-align: left;
+    width: 950px;
+    height: 200px;
+}
+
+.contact{
+	border: 2px solid #4B4D52;
+	background-color:#D0CABF;
+	max-width: 1000px;
+	min-width: 800px;
+	height: auto;
+	margin: 20px auto;
+	padding: 30px;
+}
+
+footer {
+	border: 2px solid #4B4D52;
+	background-color:#D0CABF;
+	max-width: 1000px;
+	min-width: 800px;
+	height: auto;
+	margin: 20px auto;
+	padding:0 30px;
+	text-align: center;
+}
+
+.booking{
+	width:200px;
+	height:20px;
+}
+
+textarea {
+   resize: none;
+}

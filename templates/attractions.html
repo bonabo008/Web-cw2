@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+        <link type="text/css" rel="stylesheet" href="static/style/style.css">
+        <link type="text/css" rel="stylesheet" media="handheld, only screen and (max-device-width: 481px)" href="static/style/phone.css">
+        <title>Attractions</title>
+    </head>
+    <body>
+        <nav>
+            <div id = "buttonRow" class="buttonRow">
+                <div class="oldFarm sideBySide" id="oldFarm">
+                    <h1 class = "title">Old Farm Property For Rent</h1>
+                    <h3>Walberswick, Suffolk</h3>
+                </div>
+                <div class="price sideBySide" id="price">
+                    <h1 class="priceh1">£850</h1>
+                    <p class="pricep">For 7 Days</p>
+                </div>
+                <div id="buttons" class="buttons">
+                    <hr>
+                    <a href="home"><button class="navbutton navsize">Description</button></a>
+                    <a href="attractions"><button class="navbutton navsize">Local Area</button></a>
+                    <a href="displayList"><button class="navbutton navsize">Comments</button></a>
+					<a href="booking"><button class="navbutton navsize">Booking</button></a>
+                </div>
+            </div>
+        </nav>
+        <!--Map section	-->
+        <div class="content_section map" id="map">
+            <h1 class = "title maph1">Local Area</h1>
+            <hr>
+            <!-- Google map -->
+            <div id="map_canvas" class="map_canvas sideBySide">
+            </div>
+            <div id="local_info" class="sideBySide local_info">
+                <!-- Directions section	-->
+                <h3 class="maph3">Directions</h3>
+                <input type="text" id="start" placeholder="Enter a Location" />				
+                <button id="end" value="52.313365, 1.659623" onclick="calcRoute();">Search</button>
+                <button id="resetMap" value="52.313365, 1.659623" onclick="initialize()">Reset Map</button>
+                <h3 class="maph3">Points of interest</h3>
+                <ul>
+                    <li>Church of Saint Andrew Walberswick</li>
+                    <li>Dunwich Museum</li>
+                    <li>Suffolk Coast National Nature Reserve</li>
+                    <li>Alfred Corry Lifeboat Museum</li>
+                    <li>Southwold Lighthouse</li>
+                </ul>
+                <h3 class="maph3">Restaurants / Pubs</h3>
+                <ul>
+                    <li>The Anchor pub - The Street, Walberswick IP18 6UA</li>
+                    <li>The Bell Inn - Ferry Rd, sufflok IP18 6TN</li>
+                    <li>The Harbour Inn - Black Shore, Southwold IP18 6TA</li>
+                    <li>Mrs T's Fish And Chips - 1 Blackshore Cottage, Southwold IP18 6TA</li>
+                </ul>
+            </div>
+        </div>
+        <!--Contact section	-->
+        <div id="contact" class="contact">
+            <h1>Contact Details</h1>
+            <hr>
+            <p>If interested in the property, please contact:</p>
+            <h3>Dianna Vu</h3>
+            <p>Mobile: 07909052006</p>
+            <p>Email: Dianna.Vu@uea.ac.uk</p>
+            <h3>Daniel Banks</h3>
+            <p>Email: Daniel.Banks@uea.ac.uk</p>
+        </div>
+        <!--Footer section	-->
+        <footer>
+            <p>Site By - Daniel Banks</p>
+        </footer>
+        <!--Scripts	-->
+        <script src="https://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
+        <script src="static/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <script src="static/js/javascript.js" type="text/javascript"></script>
+        <script src="static/js/map.js" type="text/javascript"></script>
+    </body>
+</html>
